@@ -16,6 +16,7 @@
 		941DB92F203A796D0056BD5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 941DB92E203A796D0056BD5B /* Assets.xcassets */; };
 		941DB93A203A796E0056BD5B /* projectXTVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941DB939203A796E0056BD5B /* projectXTVTests.swift */; };
 		941DB945203A796E0056BD5B /* projectXTVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941DB944203A796E0056BD5B /* projectXTVUITests.swift */; };
+		945F8730203BFCA10050EE15 /* home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 945F872F203BFCA10050EE15 /* home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		941DB940203A796E0056BD5B /* projectXTVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = projectXTVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		941DB944203A796E0056BD5B /* projectXTVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = projectXTVUITests.swift; sourceTree = "<group>"; };
 		941DB946203A796E0056BD5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		945F872F203BFCA10050EE15 /* home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 			children = (
 				941DB921203A796D0056BD5B /* AppDelegate.swift */,
 				941DB923203A796D0056BD5B /* GameScene.sks */,
+				945F872F203BFCA10050EE15 /* home.swift */,
 				941DB925203A796D0056BD5B /* Actions.sks */,
 				941DB927203A796D0056BD5B /* GameScene.swift */,
 				941DB929203A796D0056BD5B /* GameViewController.swift */,
@@ -268,6 +271,7 @@
 			files = (
 				941DB928203A796D0056BD5B /* GameScene.swift in Sources */,
 				941DB92A203A796D0056BD5B /* GameViewController.swift in Sources */,
+				945F8730203BFCA10050EE15 /* home.swift in Sources */,
 				941DB922203A796D0056BD5B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
